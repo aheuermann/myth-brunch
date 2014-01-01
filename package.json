@@ -1,0 +1,23 @@
+{
+  "name": "myth-brunch",
+  "version": "0.0.1",
+  "description": "Adds myth css preprocessor suport to Brunch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "author": "Andrew Heuermann",
+  "homepage": "https://github.com/aheuermann/myth-brunch",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aheuermann/myth-brunch"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "myth": "~0.2.0"
+  },
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "mocha": "~1.16.2"
+  }
+}
