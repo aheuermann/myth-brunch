@@ -1,6 +1,6 @@
 {
   "name": "myth-brunch",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Adds myth css preprocessor suport to Brunch.",
   "main": "index.js",
   "scripts": {
@@ -14,10 +14,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "myth": "~0.2.0"
+    "myth": "~0.3.0"
   },
   "devDependencies": {
-    "chai": "~1.8.1",
-    "mocha": "~1.16.2"
+    "chai": "~1.9.0",
+    "mocha": "~1.17.0"
   }
 }
