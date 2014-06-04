@@ -5,7 +5,7 @@ a {
   font-feature-settings: "smcp", "c2sc";
   font-variant: all-small-caps;
   -webkit-transition: color 1s;
-  transition: color 1s;
+  transition: color 4s;
 }
 
 a:hover {

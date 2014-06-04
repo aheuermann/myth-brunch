@@ -15,6 +15,7 @@ describe('MythBrunchPlugin', function(){
   });
 
   it('should have a compile method', function() {
+    "".fail();
     expect(plugin.compile).to.be.an.instanceof(Function);
   });
 

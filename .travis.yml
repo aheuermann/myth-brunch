@@ -1,3 +1,9 @@
 language: node_js
 node_js:
   - "0.10"
+before_script:
+  - mkdir -p shippable/testresults
+script:
+  - node_modules/.bin/mocha -R xunit > shippable/testresults/xunit.xml
+
+
